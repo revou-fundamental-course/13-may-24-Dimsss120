@@ -37,16 +37,16 @@ alert(`${hormat}`)
 
 // VALIDASI START
 // Luas Segitiga
-let alas = 32
-let tinggi = 17
-const a = 0.5
-  const hasil = a * alas * tinggi
+// let alas = 32
+// let tinggi = 17
+// const a = 0.5
+//   const hasil = a * alas * tinggi
 
-// Keliling Segitiga
-let s1 = 32
-let s2 = 29
-let s3 = 17
-  const akhir = s1 + s2 + s3
+// // Keliling Segitiga
+// let s1 = 32
+// let s2 = 29
+// let s3 = 17
+//   const akhir = s1 + s2 + s3
 
 // VALIDASI END
 
