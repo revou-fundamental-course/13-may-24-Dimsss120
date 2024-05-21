@@ -1,0 +1,164 @@
+/* CONTENT HEADER START */
+
+/* header section-1 */
+.header-1 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin:0px ;
+}
+
+/* header section-2 */
+.header-2 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1px;
+  margin: 0px;
+  text-align: center;
+  background-color: chocolate;
+  border: 2px solid brown;
+  border-radius: 4px;
+  color: white;
+}
+
+/* header section-3 */
+
+/* BUTTON CODING */
+.header-3 {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  padding: 1px;
+  text-align: center;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
+
+.font-color-1 {
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* BUTTON END */
+
+/* CONTENT HEADER END */
+
+/* CONTENT BODY START */
+
+.body-1 {
+  background-color: chocolate;
+  text-align: center;
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 2px solid brown;
+  border-radius: 4px;
+}
+
+.h1-body-1 {
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* image */
+.image {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.img-1 {
+  height: 150px;
+  width: 250px;
+}
+/* image end */
+
+/* h3 content */
+.p-inf {
+  text-align: center;
+}
+
+.p-content {
+  height: 20px;
+  margin-left: 460px;
+  margin-right: 460px;
+  text-align: center;
+  font-weight: 700;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+/* h3 end */
+
+
+/* rumus start */
+.rumus-1 {
+  margin: 0%;
+  padding: 2px;
+  width: 150px;
+  text-align: center;
+  list-style:none;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.info {
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* CONTENT 1 END */
+
+/* CONTENT 2 START */
+
+.content-header-2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1cm;
+  font-family: roboto, sans-serif;
+}
+
+.input-section > input {
+  text-align: left;
+  width: 100%;
+  height: 25px;
+  border-radius: 2px;
+}
+
+/* CONTENT 2 END */
+
+/* footer start */
+
+.button-foot {
+  text-align: center;
+}
+
+.hitung  {
+  border: 2px solid black;
+  background-color: rgb(54, 239, 54);
+  font-family: roboto, sans-serif;
+  border-radius: 4px;
+  align-items: end;
+  height: 40px;
+  width: 100px;
+
+}
+
+.reset {
+  border: 2px solid black;
+  background-color: rgb(255, 39, 39);
+  font-family: roboto, sans-serif;
+  border-radius: 4px;
+  height: 40px;
+  width: 100px;
+
+}
+
+/* footer button end */
+
+
+
+
+/* footer end */
