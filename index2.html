@@ -86,23 +86,35 @@
     <div>
       <p class="content-header-2">🪴 KELILING SEGITIGA 🪴</p>
     </div>
-
-    <section class="input-section">
-      <input type="number", placeholder="Alas", name="Alas">
-      <br><br><br>
-      <input type="number", placeholder="Tinggi", name="Tinggi">
-      <br><br><br>
-      <input type="number", placeholder="Hasil", name="Hasil", value="Hasil", readonly>
   </form>
 
+<!-- js  -->
 
-  <section>
-    <br><br>
-    <div class="button-foot">
-    <button type="submit" class="hitung"><p>Hitung </p></button>
-    <button type="reset" class="reset"><p>Reset</p></button>
-    </div>
-  </section>
+  <section class="input-section">
+      <label>Sisi1</label> <br>   
+    <input type="number" id="s1"> <br>
+      <label>Sisi2</label> <br>
+    <input type="number" id="s2"> <br>
+      <label>Sisi3</label> <br>
+    <input type="number" id="s3"> <br>
+    </section>
+
+    <br>
+
+    <section>
+      <button id="hasil" class="btn-end">Hitung</button> <br> <br>
+    </section>
+    
+
+    <section>
+      <div id="footer", class="n-akhir"></div>
+    </section>
+
+
+ 
   <!-- CONTENT 2 BODY END -->
+
+<!-- java -->
+  <script src="js/main.js"></script>
 </body>
 </html>

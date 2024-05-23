@@ -7,7 +7,7 @@
   <!-- Link -->
   <link rel="stylesheet" href="css/style.css">
   <!-- JS SCRIPT -->
-  <script src="/js/style.js"></script>
+  
 </head>
 
 <body>
@@ -95,25 +95,33 @@
     <div>
       <p class="content-header-2">🪴 LUAS SEGITIGA 🪴</p>
     </div>
-
-    <section class="input-section">
-      <input type="number", placeholder="Alas", name="Alas">
-      <br><br><br>
-      <input type="number", placeholder="Tinggi", name="Tinggi">
-      <br><br><br>
-      <input type="number", placeholder="Hasil", name="Hasil", value="Hasil", readonly>
   </form>
 
+  <section class="input-section">
+    <label for="">Alas</label> <br>   
 
- 
+    <input type="number" id="alas"> <br>
 
-  <section>
-    <br><br>
-    <div class="button-foot">
-    <button type="submit" class="hitung"><p>Hitung </p></button>
-    <button type="reset" class="reset"><p>Reset</p></button>
-    </div>
-  </section>
+    <label for="">Tinggi</label> <br>
+
+    <input type="number" id="tinggi"> <br>
+    </section>
+
+    <br>
+
+    <section>
+      <button id="hitung" class="btn-end">Hitung</button> <br> <br>
+    </section>
+    
+<br>
+
+    <section>
+      <div id="output", class="n-akhir"></div>
+    </section>
+  
   <!-- CONTENT 2 BODY END -->
+
+  <!-- Java -->
+  <script src="/js/style.js"></script>
 </body>
 </html>
