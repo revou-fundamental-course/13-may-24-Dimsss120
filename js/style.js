@@ -2,18 +2,17 @@
 // variabel
 
 
-const alas = document.getElementById('alas')
-const tinggi = document.getElementById('tinggi')
-const hitung = document.getElementById('hitung')
-const output = document.getElementById('output')
+hasil.addEventListener('click' , function add(){
+  var a,t,c; //membuat variabel
+  const pern = document.getElementById('output')
 
+  a=Number(document.getElementById("alas").value); //menangkap input angka pertama
+  t=Number(document.getElementById("tinggi").value); //menangkap input angka kedua
+  c = 0.5*a*t; //melakukan penjumlahan
+  document.getElementById("hitung").value= c;
+  output.innerHTML = `Luas Segitiga adalah ${c}`
+  })
 
-hitung.addEventListener('click' , function(){
-  let a = alas.value
-  let t = tinggi.value
-  let l = 0.5*a*t
-  output.innerHTML = `Luas Segitiga dari alas ${a} cm dan tinggi ${t} cm adalah ${l} cm2`
-})
 
 
 
