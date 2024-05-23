@@ -154,6 +154,20 @@
 
 }
 
+.btn-end {
+  width: 100px;
+  height: 20px;
+  color: white;
+  background-color: chocolate;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.n-akhir {
+  font-family: roboto, sans-serif;
+  
+}
+
 /* footer button end */
 
 
